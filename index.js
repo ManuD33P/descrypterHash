@@ -109,7 +109,7 @@ room.Name = packet.readString();
 
 // Mostrar resultados
 console.log("Room Info:", {
-    IP: (room.IP), // Mostrar en Base64 para ver valores
+    IP: room.IP, 
     Port: room.Port,
     Name: room.Name
 });
